@@ -92,11 +92,11 @@ WSGI_APPLICATION = 'telko_india.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'formsbuilder',
-        'USER': 'formsbuilder',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'telko',
+        'USER': 'doadmin',
+        'PASSWORD': 'AVNS_ITdXK4f4m5AKlmqh6xS',
+        'HOST': 'db-postgresql-blr1-44644-do-user-11291982-0.b.db.ondigitalocean.com',
+        'PORT' : '25060',
     }
 }
 
